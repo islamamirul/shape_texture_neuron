@@ -428,7 +428,7 @@ class DistilledVisionTransformer(VisionTransformer):
         x = self.forward_features(inp)
         x = torch.transpose(x, 1, 2).unsqueeze(2)
         x = self.avgpool(x)
-        return Distribution(x, deterministic=False)
+        return x
 
 
 def resize_pos_embed(posemb, posemb_new):
