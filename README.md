@@ -8,11 +8,11 @@
 
 # BibTeX
 
- @InProceedings{islam2021shape,
-  title={Shape or texture: Understanding discriminative features in CNNs},
-  author={Islam, Md Amirul and Kowal, Matthew and Esser, Patrick and Jia, Sen and Ommer, Bjorn and Derpanis, Konstantinos G and Bruce, Neil},
-  booktitle={International Conference on Learning Representations},
-  year={2021}
-}
+   @InProceedings{islam2021shape,
+    title={Shape or texture: Understanding discriminative features in CNNs},
+    author={Islam, Md Amirul and Kowal, Matthew and Esser, Patrick and Jia, Sen and Ommer, Bjorn and Derpanis, Konstantinos G and Bruce, Neil},
+    booktitle={International Conference on Learning Representations},
+    year={2021}
+  }
 
 
