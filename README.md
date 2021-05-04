@@ -7,7 +7,9 @@
 <br>
 
 ![Alt text](dim_estimation/assets/dim_est.png?raw=true "Title")
+<br>
 
+#  Data Preparation
 **Stylized PASCAL VOC 2012 Preparation**
 
 1. Download the PASCAL VOC 2012 dataset from official website
