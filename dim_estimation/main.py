@@ -43,6 +43,7 @@ def main():
     # for-loop inference and store values as numpy array
     for i, (factor, example1, example2, _, _) in enumerate(dataloader):
 
+        # move data to GPU
         example1, example2 = example1.cuda(device), example2.cuda(device)
 
         # pass images through model and get distribution mean
@@ -53,7 +54,7 @@ def main():
             output1 = model(example1).mode()[0]
             output2 = model(example2).mode()[0]
 
-        # add factor and output to list / array for processing later on
+        # add factor and output to list / array for processing dimensions later on
         factor_list.append(factor.detach().cpu().numpy())
         output_dict['example1'].append(output1.detach().cpu().numpy())
         output_dict['example2'].append(output2.detach().cpu().numpy())
@@ -61,10 +62,13 @@ def main():
         if i % 10000 == 0:
             print('Processing example {}/{}'.format(i, len(dataloader)))
 
-    # dimensionality estimation
     print(' > Finished processing examples...')
     print(' > Starting Dimensionality Estimation!')
+
+    # dimensionality estimation
     dims, dims_percent = dim_est(output_dict, factor_list, args)
+
+
     print(" >>> Estimated factor dimensionalities: {}".format(dims))
     print(" >>> Ratio to total dimensions: {}".format(dims_percent))
 

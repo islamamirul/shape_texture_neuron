@@ -5,16 +5,15 @@ import numpy as np
 import torch.utils.data as data
 import torch
 
-
-def get_svoc_data():
+# Stylized VOC
+def get_svoc_data(config):
     data_path = '/mnt/zeta_share_1/public_share/stylized_voc/*'
-    # data_path = '/mnt/zeta_share_1/public_share/stylized_voc_exp_subset_pair/*'
+    data_path = config.data_path + '*'
     files = glob.glob(data_path)
     data = []
     data_id_list = {}
     for i in range(1,21):
-        data_id_list[i] = {'0': [], '1': [],'2': [],'3': [],'4': [],'5': []}
-        # data_id_list[i] = {'1': [],'2': [],'3': [],'4': [], '5': []}
+        data_id_list[i] = {'1': [],'2': [],'3': [],'4': [], '5': []}
     for i, file in enumerate(files):
         img_file_name = file.split('/')[-1]
         cls_label = img_file_name.split('_')[1]
@@ -27,24 +26,17 @@ def get_svoc_data():
             'img_id': img_id,
             'file_path': file,
         }
-        if not tex_id == '0':
-            data.append(sample)
+
 
     return data, data_id_list
 
-
-# Stylized VOC
-
-
 class StylizedVoc(data.Dataset):
     def __init__(self, config):
-        # need to replace this with datalist of all images, with corresponding styles and class labels
-        # self.data = get_coco_data()
-        self.data, self.data_ids = get_svoc_data()
+        self.data, self.data_ids = get_svoc_data(config)
         self.num_textures = 5
         self.n_factors = config.n_factors
         self.num_classes = 20
-        self.image_size = config.image_size  # int(config.model.split('_')[-1])
+        self.image_size = config.image_size
         self.list_possible_shapes = []
         for key in self.data_ids:
             if len(self.data_ids[key]['0']):
@@ -56,11 +48,13 @@ class StylizedVoc(data.Dataset):
         return factor
 
     def get_image(self, path):
+        # open image
         image = cv2.imread(path, cv2.IMREAD_COLOR).astype(np.float32)
+        # resize
         image = cv2.resize(image, (self.image_size, self.image_size), interpolation=cv2.INTER_LINEAR)
-        # image = self._normalize(image, mean=[104.008, 116.669, 122.675], std=[1.0, 1.0, 1.0])
-        # for imagenet models
+        # normalize (imagenet norm used)
         image = self._normalize(image, mean=[0.456, 0.406, 0.485], std=[0.224, 0.225, 0.229])
+        # convert to tensor and reshape
         image = np.array(image)
         torch.tensor(image).permute(2,0,1)
         return torch.tensor(image).permute(2,0,1)
@@ -83,9 +77,11 @@ class StylizedVoc(data.Dataset):
         factor = random.randint(0, self.n_factors)
         example = {"factor": factor, "example1": {'image': example1, 'class': cls1}}
 
+        # select random factor (0 is shape, 1 is texture)
         if factor == 0:
             # same shape, different texture
             list_possible_textures = list(range(1, self.num_textures+1))
+            # select same image with different texture
             list_possible_textures.remove(texture1)
             new_texture = random.choice(list_possible_textures)
             id2 = str(new_texture) + path1.split('/')[-1][1:]
@@ -96,6 +92,7 @@ class StylizedVoc(data.Dataset):
         else:
             # different shape (class), same texture
             list_possible_shapes = self.list_possible_shapes.copy()
+            # select different image with same texture
             list_possible_shapes.remove(cls1)
             new_shape = random.choice(list_possible_shapes)
             choose_new_file_list = self.data_ids[new_shape][str(texture1)]

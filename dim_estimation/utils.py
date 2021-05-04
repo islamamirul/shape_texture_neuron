@@ -66,8 +66,9 @@ def get_model(args):
 def get_dataloader(args):
     if args.dataset == 'svoc':
         dataset = StylizedVoc(args)
-    if args.dataset == 'StylizedActivityNet':
-        dataset = StylizedActivityNet(args)
+    else:
+        print('dataset not available!')
+        sys.exit()
     dataloader = DataLoader(dataset, args.batch_size, shuffle=False, num_workers=args.num_workers, pin_memory=True)
     return dataloader
 

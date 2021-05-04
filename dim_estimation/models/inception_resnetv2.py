@@ -329,11 +329,8 @@ class InceptionResNetV2(nn.Module):
 
     def forward(self, input):
         x = self.features(input)
-        # print(x.shape)
         x = self.logits(x)
-
-        # print(x.shape)
-        return Distribution(x, deterministic=False)
+        return x
 
 
 def inceptionresnetv2(num_classes=1000, pretrained='imagenet'):
@@ -365,42 +362,6 @@ def inceptionresnetv2(num_classes=1000, pretrained='imagenet'):
         model = InceptionResNetV2(num_classes=num_classes)
     return model
 
-
-class Distribution(object):
-    def __init__(self, parameters, deterministic=False):
-        self.parameters = parameters
-        self.mean = torch.chunk(parameters, 1, dim=1)
-        self.deterministic = deterministic
-
-    def sample(self):
-        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        x = self.mean + self.std*torch.randn(self.mean.shape).to(device)
-        return x
-
-    def kl(self, other=None):
-        if self.deterministic:
-            return torch.Tensor([0.])
-        else:
-            if other is None:
-                return 0.5*torch.sum(torch.pow(self.mean, 2)
-                        + self.var - 1.0 - self.logvar,
-                        dim=[1,2,3])
-            else:
-                return 0.5*torch.sum(
-                        torch.pow(self.mean - other.mean, 2) / other.var
-                        + self.var / other.var - 1.0 - self.logvar + other.logvar,
-                        dim=[1,2,3])
-
-    def nll(self, sample):
-        if self.deterministic:
-            return torch.Tensor([0.])
-        logtwopi = np.log(2.0*np.pi)
-        return 0.5*torch.sum(
-                logtwopi+self.logvar+torch.pow(sample-self.mean, 2) / self.var,
-                dim=[1,2,3])
-
-    def mode(self):
-        return self.mean
 
 '''
 TEST

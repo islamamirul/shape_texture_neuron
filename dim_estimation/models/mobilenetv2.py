@@ -108,12 +108,10 @@ class MobileNetV2(nn.Module):
 
     def forward(self, x):
         x = self.features(x)
-        # print(x.shape)
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
-
         # x = self.fc(x)
-        return Distribution(x, deterministic=False)
+        return x
         # x = x.mean(3).mean(2)
         # x = self.classifier(x)
         # return x
@@ -132,44 +130,6 @@ class MobileNetV2(nn.Module):
                 n = m.weight.size(1)
                 m.weight.data.normal_(0, 0.01)
                 m.bias.data.zero_()
-
-
-class Distribution(object):
-    def __init__(self, parameters, deterministic=False):
-        self.parameters = parameters
-        self.mean = torch.chunk(parameters, 1, dim=1)
-        self.deterministic = deterministic
-
-    def sample(self):
-        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        x = self.mean + self.std*torch.randn(self.mean.shape).to(device)
-        return x
-
-    def kl(self, other=None):
-        if self.deterministic:
-            return torch.Tensor([0.])
-        else:
-            if other is None:
-                return 0.5*torch.sum(torch.pow(self.mean, 2)
-                        + self.var - 1.0 - self.logvar,
-                        dim=[1,2,3])
-            else:
-                return 0.5*torch.sum(
-                        torch.pow(self.mean - other.mean, 2) / other.var
-                        + self.var / other.var - 1.0 - self.logvar + other.logvar,
-                        dim=[1,2,3])
-
-    def nll(self, sample):
-        if self.deterministic:
-            return torch.Tensor([0.])
-        logtwopi = np.log(2.0*np.pi)
-        return 0.5*torch.sum(
-                logtwopi+self.logvar+torch.pow(sample-self.mean, 2) / self.var,
-                dim=[1,2,3])
-
-    def mode(self):
-        return self.mean
-
 
 
 def mobilenet_v2(pretrained=True):
