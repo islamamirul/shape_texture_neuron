@@ -6,6 +6,8 @@
 
 <br>
 
+![Alt text](dim_estimation/assets/dim_est.png?raw=true "Title")
+
 # BibTeX
 If you find this repository useful, please consider giving a star :star: and citation :t-rex:
 
