@@ -15,6 +15,7 @@
 1. Download the PASCAL VOC 2012 dataset from official website.
 
 2. Run the following script to generate the stylized voc 2012 dataset
+
             cd generate_stylized_voc
             python make_stl_voc.py
 
