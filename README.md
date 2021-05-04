@@ -12,7 +12,7 @@
 #  Data Preparation
 **Stylized PASCAL VOC 2012 Preparation**
 
-1. Download the PASCAL VOC 2012 dataset from official website
+1. Download the PASCAL VOC 2012 dataset from official website.
 
 2. Run the following script to generate the stylized voc 2012 dataset
 
