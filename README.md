@@ -7,6 +7,8 @@
 <br>
 
 # BibTeX
+If you find this repository useful, please consider giving a star star and citation t-rex:
+
 
       @InProceedings{islam2021shape,
        title={Shape or texture: Understanding discriminative features in CNNs},
