@@ -8,6 +8,13 @@
 
 ![Alt text](dim_estimation/assets/dim_est.png?raw=true "Title")
 
+# Stylized PASCAL VOC 2012 Preparation
+
+1. Download the PASCAL VOC 2012 dataset from official website
+
+3. Run the following script to generate the stylized voc 2012 dataset
+
+
 # BibTeX
 If you find this repository useful, please consider giving a star :star: and citation :t-rex:
 
