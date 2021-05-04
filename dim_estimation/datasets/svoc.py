@@ -7,7 +7,6 @@ import torch
 
 # Stylized VOC
 def get_svoc_data(config):
-    data_path = '/mnt/zeta_share_1/public_share/stylized_voc/*'
     data_path = config.data_path + '*'
     files = glob.glob(data_path)
     data = []
