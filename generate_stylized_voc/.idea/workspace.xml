@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fca6bfa6-8717-4de2-8f75-9210e335cf8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/generate_stylized_voc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/avril.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/blonde_girl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/brad_pitt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/chicago.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/cornell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/flowers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/golden_gate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/lenna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/modern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/newyork.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/content/sailboat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/mask/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/antimonocromatismo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/asheville.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/brushstrokes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/contrast_of_forms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/en_campo_gris.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/flower_of_life.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/goeritz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/impronte_d_artista.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/la_muse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/mondrian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/mondrian_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/picasso_seated_nude_hr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/picasso_self_portrait.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/scene_de_rue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/the_resevoir_at_poitiers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/trial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/woman_in_peasant_dress.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/woman_in_peasant_dress_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/style/woman_with_hat_matisse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/styleexample/mondrian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/styleexample/woman_with_hat_matisse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/videos/cutBunny.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net.py" beforeDir="false" afterPath="$PROJECT_DIR$/net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/torch_to_pytorch.py" beforeDir="false" afterPath="$PROJECT_DIR$/torch_to_pytorch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/make_stl_voc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-216">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Path</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/make_stl_voc.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="92" />
+    <option name="width" value="1276" />
+    <option name="height" value="545" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="generate_stylized_voc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generate_stylized_voc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fca6bfa6-8717-4de2-8f75-9210e335cf8b" name="Default Changelist" comment="" />
+      <created>1620100363288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620100363288</updated>
+      <workItem from="1620100371104" duration="1346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1346000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-5" width="1280" height="725" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/random_build_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torch_to_pytorch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1543">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make_stl_voc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
