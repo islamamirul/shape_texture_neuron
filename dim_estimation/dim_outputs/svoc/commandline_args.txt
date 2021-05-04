@@ -1,0 +1,17 @@
+{
+  "save_dir": "dim_outputs/svoc/",
+  "dataset": "svoc",
+  "model": "resnet50",
+  "pretrained": true,
+  "checkpoint": "",
+  "stage": 5,
+  "n_factors": 3,
+  "styles": "0,1",
+  "residual_index": 2,
+  "batch_size": 1,
+  "image_size": 513,
+  "num_workers": 4,
+  "device": "cuda:1",
+  "gp": null,
+  "torchscript": false
+}
