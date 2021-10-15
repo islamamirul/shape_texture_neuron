@@ -51,7 +51,7 @@ parser.add_argument('--content', type=str,
 
 parser.add_argument('--content_dir', default="/HDD2/amirul/datasets/pascal_2012_semantic_segmentation/VOCdevkit/VOC2012/JPEGImages", type=Path,
                     help='Directory path to a batch of content images')
-parser.add_argument('--txt_file', default="/HDD2/amirul/datasets/pascal_2012_semantic_segmentation/VOCdevkit/VOC2012/ImageSets/Segmentation/train_object_1.txt", type=str,
+parser.add_argument('--txt_file', default="./train_object_1.txt", type=str,
                    help='Directory path to a batch of content images')
 
 parser.add_argument('--style', type=str,
