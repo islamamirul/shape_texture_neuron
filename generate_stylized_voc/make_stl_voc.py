@@ -49,9 +49,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--content', type=str,
                     help='File path to the content image')
 
-parser.add_argument('--content_dir', default="/PATH_TO_VOC12/VOCdevkit/VOC2012/JPEGImages", type=Path,
+parser.add_argument('--content_dir', default="/HDD2/amirul/datasets/pascal_2012_semantic_segmentation/VOCdevkit/VOC2012/JPEGImages", type=Path,
                     help='Directory path to a batch of content images')
-parser.add_argument('--txt_file', default="/PATH_TO_VOC12/VOCdevkit/VOC2012/ImageSets/Main/train.txt", type=str,
+parser.add_argument('--txt_file', default="/HDD2/amirul/datasets/pascal_2012_semantic_segmentation/VOCdevkit/VOC2012/ImageSets/Segmentation/train_object_1.txt", type=str,
                    help='Directory path to a batch of content images')
 
 parser.add_argument('--style', type=str,
@@ -135,8 +135,10 @@ for style_path in style_files:
 
 for img_path in txt_files:
     print(img_path)
+    cls_id = str(img_path.split('_')[0])
     content_path = (args.content_dir / img_path).with_suffix(".jpg")
-    path = content_path
+    img_name = str(content_path).split('/')[-1][-15:]
+    path = str(content_path).split('JPEGImages/')[0] + 'JPEGImages/' + img_name
 
     content = content_tf(Image.open(str(path))).squeeze()
     content = content.to(device).unsqueeze(0)

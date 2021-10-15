@@ -115,6 +115,43 @@ class Bottleneck(nn.Module):
 
         return out
 
+
+class Distribution(object):
+    def __init__(self, parameters, deterministic=False):
+        self.parameters = parameters
+        self.mean = torch.chunk(parameters, 1, dim=1)
+        self.deterministic = deterministic
+
+    def sample(self):
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        x = self.mean + self.std*torch.randn(self.mean.shape).to(device)
+        return x
+
+    def kl(self, other=None):
+        if self.deterministic:
+            return torch.Tensor([0.])
+        else:
+            if other is None:
+                return 0.5*torch.sum(torch.pow(self.mean, 2)
+                        + self.var - 1.0 - self.logvar,
+                        dim=[1,2,3])
+            else:
+                return 0.5*torch.sum(
+                        torch.pow(self.mean - other.mean, 2) / other.var
+                        + self.var / other.var - 1.0 - self.logvar + other.logvar,
+                        dim=[1,2,3])
+
+    def nll(self, sample):
+        if self.deterministic:
+            return torch.Tensor([0.])
+        logtwopi = np.log(2.0*np.pi)
+        return 0.5*torch.sum(
+                logtwopi+self.logvar+torch.pow(sample-self.mean, 2) / self.var,
+                dim=[1,2,3])
+
+    def mode(self):
+        return self.mean
+
 def upsample_bilinear(x, size):
     if float(torch.__version__[:3]) <= 0.3:
         out = F.upsample(x, size, mode='bilinear')
@@ -207,32 +244,34 @@ class ResNet(nn.Module):
         x = self.relu(x)
         x = self.maxpool(x)
 
-        if self.stage == '2':
-            x = self.avgpool(x)
+        if self.stage == '1':
+            x = self.avgpool(x)  # REPLACE WITH DOWNSAMPLE TO 5x5
             x = torch.flatten(x, 1)
-            return x
+            return Distribution(x, deterministic=False)
+
 
         x = self.layer1(x)
-        if self.stage == '3':
-            x = self.avgpool(x)
+        if self.stage == '2':
+            x = self.avgpool(x)  # REPLACE WITH DOWNSAMPLE TO 5x5
             x = torch.flatten(x, 1)
-            return x
+            return Distribution(x, deterministic=False)
         x = self.layer2(x)
-        if self.stage == '4':
-            x = self.avgpool(x)
+        if self.stage == '3':
+            x = self.avgpool(x)  # REPLACE WITH DOWNSAMPLE TO 5x5
             x = torch.flatten(x, 1)
-            return x
+            return Distribution(x, deterministic=False)
         x = self.layer3(x)
-        if self.stage == '5':
-            x = self.avgpool(x)
+        if self.stage == '4':
+            x = self.avgpool(x)  # REPLACE WITH DOWNSAMPLE TO 5x5
             x = torch.flatten(x, 1)
-            return x
+            return Distribution(x, deterministic=False)
 
         x = self.layer4(x)
-        x = self.avgpool(x)
+        x = self.avgpool(x)   # REPLACE WITH DOWNSAMPLE TO 5x5
         x = torch.flatten(x, 1)
+        # return x
         # x = self.fc(x)
-        return x
+        return Distribution(x, deterministic=False)
 
     def forward(self, x):
         return self._forward_impl(x)
@@ -248,10 +287,9 @@ model_urls = {
     'wide_resnet50_2': 'https://download.pytorch.org/models/wide_resnet50_2-95faca4d.pth',
     'wide_resnet101_2': 'https://download.pytorch.org/models/wide_resnet101_2-32ee1156.pth',
     'resnet50': 'https://download.pytorch.org/models/resnet50-19c8e357.pth',
-    'resnet50_sin_in_in': 'https://bitbucket.org/robert_geirhos/texture-vs-shape-pretrained-models/raw/60b770e128fffcbd8562a3ab3546c1a735432d03/resnet50_finetune_60_epochs_lr_decay_after_30_start_resnet50_train_45_epochs_combined_IN_SF-ca06340c.pth.tar',
-    'resnet50_sin': 'https://bitbucket.org/robert_geirhos/texture-vs-shape-pretrained-models/raw/6f41d2e86fc60566f78de64ecff35cc61eb6436f/resnet50_train_60_epochs-c8e5653e.pth.tar'
+    # 'resnet50': 'https://bitbucket.org/robert_geirhos/texture-vs-shape-pretrained-models/raw/60b770e128fffcbd8562a3ab3546c1a735432d03/resnet50_finetune_60_epochs_lr_decay_after_30_start_resnet50_train_45_epochs_combined_IN_SF-ca06340c.pth.tar',
+    # 'resnet50': 'https://bitbucket.org/robert_geirhos/texture-vs-shape-pretrained-models/raw/6f41d2e86fc60566f78de64ecff35cc61eb6436f/resnet50_train_60_epochs-c8e5653e.pth.tar'
 }
-
 
 def _resnet(arch, block, layers, pretrained, progress, snapshot=None, stage=None, **kwargs):
     model = ResNet(block, layers, stage, num_classes=1000, **kwargs)
