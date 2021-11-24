@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/libs/ACAN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/MonoDepth_FPN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/models/BASNet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/rloss" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k" vcs="Git" />
+  </component>
+</project>

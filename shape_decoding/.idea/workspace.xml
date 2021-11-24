@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4147e38-d2ac-4163-aecc-c48972f7f468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/MonoDepth_FPN/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/doc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ACAN/code/dataloaders/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ACAN/code/dataloaders/dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ACAN/code/dataloaders/kitti_dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ACAN/code/dataloaders/kitti_dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ACAN/code/dataloaders/nyu_dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ACAN/code/dataloaders/nyu_dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ACAN/code/models/get_lossfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ACAN/code/models/get_lossfunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ACAN/code/models/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ACAN/code/models/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ACAN/code/utils/eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ACAN/code/utils/eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/basnet_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/basnet_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/basnet_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/basnet_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/figures/architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/figures/architecture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/figures/qual.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/figures/qual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/figures/quan.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/figures/quan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/model/resnet_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/model/resnet_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/pytorch_iou/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/pytorch_iou/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/pytorch_ssim/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/pytorch_ssim/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/0012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/BKN06Z000006_W_big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_images/BKN06Z000006_W_big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0003.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0005.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0010.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0012.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/models/BASNet/test_data/test_results/0012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/convertscribbles.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/convertscribbles.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/getlists.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/getlists.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/train_aug.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/train_aug.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/train_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/train_id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/data/pascal_scribble/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/.Doxyfile" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/.Doxyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/CAFFE_README.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/CAFFE_README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/INSTALL.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/INSTALL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/Makefile.config.example" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/Makefile.config.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/caffe.cloc" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/caffe.cloc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/ConfigGen.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/ConfigGen.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Cuda.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Cuda.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Dependencies.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Dependencies.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/External/gflags.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/External/gflags.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/External/glog.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/External/glog.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Misc.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Misc.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindAtlas.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindAtlas.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindGFlags.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindGFlags.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindGlog.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindGlog.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindLAPACK.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindLAPACK.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindLMDB.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindLMDB.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindLevelDB.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindLevelDB.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindMKL.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindMKL.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindMatlabMex.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindMatlabMex.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindNumPy.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindNumPy.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindOpenBLAS.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindOpenBLAS.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindSnappy.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindSnappy.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindvecLib.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Modules/FindvecLib.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/ProtoBuf.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/ProtoBuf.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Summary.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Summary.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Targets.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Targets.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Templates/CaffeConfig.cmake.in" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Templates/CaffeConfig.cmake.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Templates/CaffeConfigVersion.cmake.in" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Templates/CaffeConfigVersion.cmake.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Templates/caffe_config.h.in" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Templates/caffe_config.h.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Utils.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/Utils.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/lint.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/cmake/lint.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/development.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/development.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/install_apt.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/install_apt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/install_osx.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/install_osx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/install_yum.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/install_yum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/model_zoo.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/model_zoo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/multigpu.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/multigpu.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/performance_hardware.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/performance_hardware.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/stylesheets/pygment_trac.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/stylesheets/pygment_trac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/stylesheets/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/stylesheets/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/stylesheets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/convolution.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/convolution.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/data.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/fig/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/fig/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/forward_backward.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/forward_backward.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/interfaces.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/interfaces.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/layers.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/layers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/loss.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/loss.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/net_layer_blob.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/net_layer_blob.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/solver.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/docs/tutorial/solver.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/00-classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/00-classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/01-learning-lenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/01-learning-lenet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/02-fine-tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/02-fine-tuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/brewing-logreg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/brewing-logreg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cifar10/convert_cifar_data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cifar10/convert_cifar_data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cifar10/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cifar10/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cpp_classification/classification.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cpp_classification/classification.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cpp_classification/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/cpp_classification/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/detection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/detection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/feature_extraction/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/feature_extraction/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/finetune_flickr_style/flickr_style.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/finetune_flickr_style/flickr_style.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/finetune_flickr_style/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/finetune_flickr_style/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/finetune_flickr_style/style_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/finetune_flickr_style/style_names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/imagenet/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/imagenet/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/mnist/convert_mnist_data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/mnist/convert_mnist_data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/mnist/lenet.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/mnist/lenet.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/mnist/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/mnist/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/net_surgery.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/net_surgery.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/net_surgery/conv.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/net_surgery/conv.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/pycaffe/caffenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/pycaffe/caffenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/pycaffe/layers/pyloss.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/pycaffe/layers/pyloss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/pycaffe/linreg.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/pycaffe/linreg.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/siamese/convert_mnist_siamese_data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/siamese/convert_mnist_siamese_data.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/siamese/mnist_siamese.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/siamese/mnist_siamese.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/siamese/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/siamese/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/exifutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/exifutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/examples/web_demo/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/blob.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/blob.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/caffe.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/caffe.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/common.cuh" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/common.cuh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/common.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/common.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/data_reader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/data_reader.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/data_transformer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/data_transformer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/filler.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/filler.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/internal_thread.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/internal_thread.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layer_factory.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layer_factory.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/absval_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/absval_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/accuracy_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/accuracy_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/adaptive_bias_channel_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/adaptive_bias_channel_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/argmax_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/argmax_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/base_conv_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/base_conv_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/base_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/base_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/batch_norm_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/batch_norm_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/batch_reindex_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/batch_reindex_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/bias_channel_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/bias_channel_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/bias_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/bias_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/bnll_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/bnll_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/concat_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/concat_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/contrastive_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/contrastive_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/conv_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/conv_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_conv_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_conv_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_lcn_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_lcn_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_lrn_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_lrn_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_pooling_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_pooling_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_relu_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_relu_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_sigmoid_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_sigmoid_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_softmax_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_softmax_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_tanh_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/cudnn_tanh_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/deconv_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/deconv_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/densecrf_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/densecrf_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/densecrf_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/densecrf_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/domain_transform_forward_only_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/domain_transform_forward_only_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/domain_transform_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/domain_transform_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/dropout_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/dropout_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/dummy_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/dummy_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/eltwise_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/eltwise_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/elu_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/elu_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/embed_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/embed_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/euclidean_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/euclidean_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/exp_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/exp_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/filter_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/filter_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/flatten_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/flatten_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/hdf5_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/hdf5_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/hdf5_output_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/hdf5_output_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/hinge_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/hinge_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/im2col_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/im2col_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/image_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/image_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/image_seg_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/image_seg_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/infogain_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/infogain_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/inner_product_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/inner_product_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/interp_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/interp_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/log_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/log_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/lrn_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/lrn_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/mat_read_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/mat_read_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/mat_write_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/mat_write_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/memory_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/memory_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/multinomial_logistic_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/multinomial_logistic_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/mvn_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/mvn_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/neuron_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/neuron_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/pooling_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/pooling_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/power_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/power_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/prelu_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/prelu_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/python_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/python_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/reduction_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/reduction_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/relu_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/relu_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/reshape_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/reshape_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/scale_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/scale_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/seg_accuracy_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/seg_accuracy_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/sigmoid_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/sigmoid_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/silence_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/silence_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/slice_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/slice_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/softmax_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/softmax_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/softmax_loss_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/softmax_loss_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/spatial_product_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/spatial_product_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/split_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/split_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/spp_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/spp_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/tanh_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/tanh_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/threshold_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/threshold_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/tile_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/tile_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/unique_label_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/unique_label_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/window_data_layer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/layers/window_data_layer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/net.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/net.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/parallel.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/parallel.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/sgd_solvers.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/sgd_solvers.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/solver.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/solver.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/solver_factory.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/solver_factory.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/syncedmem.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/syncedmem.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/test/test_caffe_main.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/test/test_caffe_main.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/test/test_gradient_check_util.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/test/test_gradient_check_util.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/benchmark.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/benchmark.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/blocking_queue.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/blocking_queue.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/confusion_matrix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/confusion_matrix.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/cudnn.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/cudnn.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/db.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/db.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/db_leveldb.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/db_leveldb.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/db_lmdb.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/db_lmdb.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/densecrf_pairwise.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/densecrf_pairwise.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/densecrf_util.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/densecrf_util.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/device_alternate.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/device_alternate.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/filterrgbxy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/filterrgbxy.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/format.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/format.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/gpu_util.cuh" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/gpu_util.cuh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/hdf5.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/hdf5.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/im2col.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/im2col.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/insert_splits.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/insert_splits.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/interp.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/interp.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/io.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/io.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/math_functions.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/math_functions.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/matio_io.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/matio_io.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/mkl_alternate.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/mkl_alternate.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/permutohedral.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/permutohedral.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/rng.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/rng.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/signal_handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/signal_handler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/upgrade_proto.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/include/caffe/util/upgrade_proto.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/+test/test_io.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/+test/test_io.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/+test/test_net.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/+test/test_net.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/+test/test_solver.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/+test/test_solver.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Blob.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Blob.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Layer.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Layer.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Net.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Net.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Solver.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/Solver.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/get_net.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/get_net.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/get_solver.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/get_solver.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/io.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/io.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/CHECK.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/CHECK.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/CHECK_FILE_EXIST.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/CHECK_FILE_EXIST.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/caffe_.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/caffe_.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/is_valid_handle.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/private/is_valid_handle.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/reset_all.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/reset_all.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/run_tests.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/run_tests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/set_device.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/set_device.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/set_mode_cpu.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/set_mode_cpu.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/set_mode_gpu.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/set_mode_gpu.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/version.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/+caffe/version.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/demo/classification_demo.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/demo/classification_demo.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/hdf5creation/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/hdf5creation/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/hdf5creation/demo.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/hdf5creation/demo.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/hdf5creation/store2hdf5.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/hdf5creation/store2hdf5.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/AppendPrefixPostfix.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/AppendPrefixPostfix.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/DownSampleGtBboxErodeBin.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/DownSampleGtBboxErodeBin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalCRF_Boundary.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalCRF_Boundary.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalSegResults.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalSegResults.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalSegResults_CrossValidate.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalSegResults_CrossValidate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalSegResults_CrossValidate_erodeGT.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/EvalSegResults_CrossValidate_erodeGT.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetCocoCategories.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetCocoCategories.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetImglistForCaffe.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetImglistForCaffe.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetList.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetList.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetVOCopts.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/GetVOCopts.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/MyVOCevalseg.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/MyVOCevalseg.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/MyVOCevalsegBoundary.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/MyVOCevalsegBoundary.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/PasteSoftSegmentBboxByArea.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/PasteSoftSegmentBboxByArea.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/PlotBoundaryAccuracy.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/PlotBoundaryAccuracy.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/SaveBinFile.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/SaveBinFile.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/SetupEnv.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/SetupEnv.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/ShowResults.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/ShowResults.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/SortSegmentationByBbox.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/SortSegmentationByBbox.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/TransformBerkeleyVOC2011Annot_InstanceLevel_imerode_saveAsBin.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/TransformBerkeleyVOC2011Annot_InstanceLevel_imerode_saveAsBin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/TransformSegToProb.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/my_script/TransformSegToProb.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/resnet101_net_surgery.m" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/matlab/resnet101_net_surgery.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/_caffe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/_caffe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/imagenet/ilsvrc_2012_mean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/imagenet/ilsvrc_2012_mean.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/net_spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/net_spec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/pycaffe.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/pycaffe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_layer_type_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_layer_type_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_net_spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_net_spec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_python_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_python_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_python_layer_with_param_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_python_layer_with_param_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/caffe/test/test_solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/classify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/draw_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/draw_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/python/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/python/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/blob.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/blob.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/common.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/data_reader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/data_reader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/data_transformer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/data_transformer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/internal_thread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/internal_thread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layer_factory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layer_factory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/absval_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/absval_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/absval_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/absval_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/accuracy_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/accuracy_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/adaptive_bias_channel_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/adaptive_bias_channel_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/argmax_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/argmax_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/base_conv_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/base_conv_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/base_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/base_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/base_data_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/base_data_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_norm_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_norm_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_norm_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_norm_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_reindex_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_reindex_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_reindex_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/batch_reindex_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bias_channel_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bias_channel_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bias_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bias_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bias_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bias_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bnll_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bnll_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bnll_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/bnll_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/concat_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/concat_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/concat_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/concat_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/contrastive_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/contrastive_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/contrastive_loss_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/contrastive_loss_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/conv_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/conv_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/conv_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/conv_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_conv_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_conv_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_conv_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_conv_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lcn_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lcn_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lcn_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lcn_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lrn_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lrn_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lrn_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_lrn_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_pooling_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_pooling_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_pooling_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_pooling_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_relu_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_relu_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_relu_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_relu_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_sigmoid_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_sigmoid_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_sigmoid_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_sigmoid_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_softmax_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_softmax_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_softmax_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_softmax_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_tanh_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_tanh_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_tanh_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/cudnn_tanh_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/deconv_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/deconv_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/deconv_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/deconv_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/densecrf_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/densecrf_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/densecrf_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/densecrf_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_forward_only_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_forward_only_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_forward_only_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_forward_only_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/domain_transform_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/dropout_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/dropout_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/dropout_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/dropout_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/dummy_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/dummy_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/eltwise_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/eltwise_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/eltwise_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/eltwise_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/elu_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/elu_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/elu_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/elu_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/embed_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/embed_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/embed_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/embed_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/euclidean_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/euclidean_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/euclidean_loss_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/euclidean_loss_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/exp_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/exp_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/exp_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/exp_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/filter_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/filter_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/filter_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/filter_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/flatten_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/flatten_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_data_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_data_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_output_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_output_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_output_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hdf5_output_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hinge_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/hinge_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/im2col_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/im2col_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/im2col_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/im2col_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/image_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/image_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/infogain_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/infogain_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/inner_product_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/inner_product_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/inner_product_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/inner_product_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/interp_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/interp_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/log_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/log_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/log_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/log_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/lrn_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/lrn_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/lrn_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/lrn_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mat_read_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mat_read_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mat_write_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mat_write_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/memory_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/memory_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/multinomial_logistic_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/multinomial_logistic_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mvn_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mvn_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mvn_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/mvn_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/neuron_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/neuron_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/pooling_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/pooling_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/pooling_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/pooling_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/power_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/power_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/power_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/power_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/prelu_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/prelu_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/prelu_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/prelu_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/reduction_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/reduction_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/reduction_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/reduction_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/relu_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/relu_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/relu_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/relu_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/reshape_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/reshape_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/scale_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/scale_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/scale_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/scale_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/seg_accuracy_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/seg_accuracy_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/sigmoid_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/silence_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/silence_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/silence_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/silence_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/slice_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/slice_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/slice_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/slice_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_loss_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/softmax_loss_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/spatial_product_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/spatial_product_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/spatial_product_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/spatial_product_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/split_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/split_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/split_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/split_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/spp_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/spp_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tanh_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tanh_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tanh_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tanh_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/threshold_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/threshold_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/threshold_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/threshold_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tile_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tile_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tile_layer.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/tile_layer.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/unique_label_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/unique_label_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/window_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/layers/window_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/parallel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/proto/caffe.proto" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/proto/caffe.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adadelta_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adadelta_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adadelta_solver.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adadelta_solver.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adagrad_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adagrad_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adagrad_solver.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adagrad_solver.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adam_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adam_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adam_solver.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/adam_solver.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/nesterov_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/nesterov_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/nesterov_solver.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/nesterov_solver.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/rmsprop_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/rmsprop_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/rmsprop_solver.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/rmsprop_solver.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/sgd_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/sgd_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/sgd_solver.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/solvers/sgd_solver.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/syncedmem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/syncedmem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_accuracy_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_accuracy_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_argmax_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_argmax_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_batch_norm_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_batch_norm_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_batch_reindex_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_batch_reindex_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_benchmark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_bias_channel_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_bias_channel_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_bias_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_bias_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_blob.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_blob.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_caffe_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_caffe_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_common.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_concat_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_concat_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_contrastive_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_contrastive_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_convolution_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_convolution_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/dt_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/dt_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/dt_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/dt_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/dt_ref_img_gradient.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/dt_ref_img_gradient.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/generate_sample_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/generate_sample_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/sample_data.h5" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/sample_data.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/sample_data_2_gzip.h5" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/sample_data_2_gzip.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/sample_data_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/sample_data_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/solver_data.h5" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/solver_data.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/solver_data_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data/solver_data_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data_transformer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_data_transformer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_db.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_db.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_deconvolution_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_deconvolution_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_domain_transform_forward_only_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_domain_transform_forward_only_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_domain_transform_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_domain_transform_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_dummy_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_dummy_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_eltwise_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_eltwise_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_embed_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_embed_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_euclidean_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_euclidean_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_filler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_filler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_filter_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_filter_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_flatten_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_flatten_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_gradient_based_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_gradient_based_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_hdf5_output_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_hdf5_output_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_hdf5data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_hdf5data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_hinge_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_hinge_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_im2col_kernel.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_im2col_kernel.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_im2col_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_im2col_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_image_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_image_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_infogain_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_infogain_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_inner_product_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_inner_product_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_internal_thread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_internal_thread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_interp_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_interp_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_io.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_io.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_layer_factory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_layer_factory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_lrn_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_lrn_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_math_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_math_functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_maxpool_dropout_layers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_maxpool_dropout_layers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_memory_data_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_memory_data_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_multinomial_logistic_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_multinomial_logistic_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_mvn_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_mvn_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_neuron_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_neuron_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_platform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_platform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_pooling_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_pooling_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_power_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_power_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_protobuf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_protobuf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_random_number_generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_random_number_generator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_reduction_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_reduction_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_reshape_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_reshape_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_scale_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_scale_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_slice_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_slice_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_softmax_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_softmax_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_softmax_with_loss_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_softmax_with_loss_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_solver_factory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_solver_factory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_spatial_product_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_spatial_product_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_split_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_split_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_spp_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_spp_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_stochastic_pooling.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_stochastic_pooling.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_syncedmem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_syncedmem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_tanh_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_tanh_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_threshold_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_threshold_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_tile_layer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_tile_layer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_upgrade_proto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_upgrade_proto.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_util_blas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/test/test_util_blas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/benchmark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/blocking_queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/blocking_queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/confusion_matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/confusion_matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/cudnn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/cudnn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/db.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/db.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/db_leveldb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/db_leveldb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/db_lmdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/db_lmdb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/densecrf_pairwise.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/densecrf_pairwise.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/densecrf_util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/densecrf_util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/filterrgbxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/filterrgbxy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/hdf5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/hdf5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/im2col.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/im2col.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/im2col.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/im2col.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/insert_splits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/insert_splits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/interp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/interp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/interp.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/interp.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/io.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/io.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/math_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/math_functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/math_functions.cu" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/math_functions.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/matio_io.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/matio_io.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/permutohedral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/permutohedral.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/signal_handler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/signal_handler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/upgrade_proto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/caffe/util/upgrade_proto.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/gtest-all.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/gtest-all.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/gtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/gtest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/gtest_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/src/gtest/gtest_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/caffe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/caffe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/compute_image_mean.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/compute_image_mean.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/convert_imageset.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/convert_imageset.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/device_query.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/device_query.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/extra/plot_log.gnuplot.example" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/extra/plot_log.gnuplot.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/extract_features.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/extract_features.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/finetune_net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/finetune_net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/net_speed_benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/net_speed_benchmark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/test_net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/test_net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/train_net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/train_net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/upgrade_net_proto_binary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/upgrade_net_proto_binary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/upgrade_net_proto_text.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/upgrade_net_proto_text.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/tools/upgrade_solver_proto_text.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/tools/upgrade_solver_proto_text.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/solver2.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/solver2.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/deeplab/trainedmodel/deeplabv2resnet101/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/solverwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/solverwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/trainwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_largeFOV/trainwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/solverwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/solverwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/trainwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_msc_largeFOV/trainwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/solverwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/solverwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/trainwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/deeplab_vgg16/trainwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/solverwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/solverwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/trainwithdensecrfloss.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/config/resnet-101/trainwithdensecrfloss.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/list/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/list/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/list/train_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/list/train_id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/list/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/pascal_scribble/list/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/sub.sed" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/sub.sed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage1.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage1_densecrf_grad.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage1_densecrf_grad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage1_prob.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage1_prob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage2.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage2_densecrf_grad.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage2_densecrf_grad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage2_prob.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualization/trainimage2_prob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/exper/visualize_densecrf_gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/exper/visualize_densecrf_gradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/DenseCRFLoss.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/DenseCRFLoss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/data/SegmentationAug/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/data/SegmentationAug/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/data/SegmentationAug/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/data/SegmentationAug/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/custom_transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/custom_transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/datasets/cityscapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/datasets/cityscapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/datasets/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/datasets/coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/datasets/combine_dbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/datasets/combine_dbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/datasets/pascal.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/datasets/pascal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/datasets/sbd.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/datasets/sbd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/dataloaders/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/dataloaders/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/doc/deeplab_resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/doc/deeplab_resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/doc/deeplab_xception.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/doc/deeplab_xception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/aspp.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/aspp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/backbone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/backbone/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/backbone/drn.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/backbone/drn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/backbone/mobilenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/backbone/mobilenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/backbone/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/backbone/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/backbone/xception.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/backbone/xception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/deeplab.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/deeplab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/sync_batchnorm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/sync_batchnorm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/sync_batchnorm/batchnorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/sync_batchnorm/batchnorm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/sync_batchnorm/comm.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/sync_batchnorm/comm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/sync_batchnorm/replicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/sync_batchnorm/replicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/modeling/sync_batchnorm/unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/modeling/sync_batchnorm/unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/mypath.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/mypath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/train_withdensecrfloss.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/train_withdensecrfloss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/train_withdensecrfloss.sh" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/train_withdensecrfloss.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/utils/calculate_weights.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/calculate_weights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/utils/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/utils/lr_scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/lr_scheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/utils/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/utils/saver.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/saver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch-deeplab_v3_plus/utils/summaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/pytorch_deeplab_v3_plus/utils/summaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/bilateralfilter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/bilateralfilter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/bilateralfilter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/bilateralfilter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/bilateralfilter.i" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/bilateralfilter.i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/numpy.i" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/numpy.i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/permutohedral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/permutohedral.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/permutohedral.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/permutohedral.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/pytorch/wrapper/bilateralfilter/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/rloss/teaser.png" beforeDir="false" afterPath="$PROJECT_DIR$/libs/rloss/teaser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/Demo.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/Demo.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/DrawLine.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/DrawLine.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/Inputs/124084.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/Inputs/124084.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/Outputs/result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/Outputs/result.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/RegionGrowing.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/RegionGrowing.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/RegionMerging.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/RegionMerging.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/calcSval.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/calcSval.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/124084.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/124084.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/Borsotti.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/Borsotti.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/DrawLine.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/DrawLine.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/EVisible.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/EVisible.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/Evaluation.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/Evaluation.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/Fratio.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/Fratio.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/GenerateWindow.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/GenerateWindow.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/JAverage.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/JAverage.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/JCalculation.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/JCalculation.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/JImage.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/JImage.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/LiuYang.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/LiuYang.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/PNN_fast.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/PNN_fast.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/PNN_fast_RGBo.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/PNN_fast_RGBo.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/QuantizedC.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/QuantizedC.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/RegionMerge.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/RegionMerge.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/RegionMerge_RGB.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/RegionMerge_RGB.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/SeedGrowing.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/SeedGrowing.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/SegEval.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/SegEval.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/SpatialSeg.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/SpatialSeg.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ValleyD.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ValleyD.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ValleyG1.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ValleyG1.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ValleyG2.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ValleyG2.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/build_heap.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/build_heap.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/class2Img.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/class2Img.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/heap_add.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/heap_add.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/heap_pop.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/heap_pop.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/kmeansO.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/kmeansO.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/script.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/script.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/sqdist.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/sqdist.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ssim_index.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/docde/ssim_index.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/findNeighbour.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/findNeighbour.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/findStatistic.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging/findStatistic.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/CocoStuffAnnotator.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/CocoStuffAnnotator.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/exportImages.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/exportImages.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/extractSLICOSuperpixels.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/extractSLICOSuperpixels.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/extractThings.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/extractThings.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/setCirclePointer.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/code/setCirclePointer.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/imageLists/example.list" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/imageLists/example.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/regions/slico-1000/COCO_train2014_000000119938.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/regions/slico-1000/COCO_train2014_000000119938.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/regions/slico-1000/COCO_train2014_000000206927.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/regions/slico-1000/COCO_train2014_000000206927.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/things/COCO_train2014_000000119938.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/things/COCO_train2014_000000119938.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/things/COCO_train2014_000000206927.mat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/things/COCO_train2014_000000206927.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/input/user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/annotator/data/output/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/cocostuff-labelhierarchy.png" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/cocostuff-labelhierarchy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/cocostuff-labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/cocostuff-labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/CocoStuffClasses.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/CocoStuffClasses.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cmapStuff.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cmapStuff.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cmapThings.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cmapThings.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cmapThingsStuff.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cmapThingsStuff.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cocoStuff_root.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/cocoStuff_root.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/conversion/convertAnnotationsDeeplab.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/conversion/convertAnnotationsDeeplab.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/conversion/convertAnnotationsJSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/conversion/convertAnnotationsJSON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/conversion/convertAnnotationsToVersion11.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/conversion/convertAnnotationsToVersion11.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/demo_cocoStuff.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/demo_cocoStuff.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/downloadData.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/downloadData.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/flattenCellArray.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/flattenCellArray.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/imageInsertBlobLabels.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/imageInsertBlobLabels.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/parentsToTrees.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/parentsToTrees.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/plotTree.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/plotTree.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/readLinesToCell.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/dataset/code/utils/readLinesToCell.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/test_val513.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/test_val513.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_resnet101/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/test.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/test.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/config/deeplabv2_vgg16/train.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val513.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val513.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val513_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val513_id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/list/val_id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/model/deeplabv2_resnet101/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/model/deeplabv2_resnet101/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/model/deeplabv2_vgg16/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/cocostuff/model/deeplabv2_vgg16/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/rescaleAnnotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/rescaleAnnotations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/rescaleImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/rescaleImages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/sub.sed" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/models/deeplab/sub.sed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/startup.m" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cocostuff_vis/cocostuff10k/startup.m" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/semseg.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/voc12_shape_semseg.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgen_voc12_binary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="144" column="27" lean-forward="true" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/voc12_shape_binseg.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="1" column="22" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imgen_voc12.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50_seg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/scripts/Color-Image-Segmentation-Using-Region-Growing-and-Region-Merging" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/trainval_shape_binseg.py" />
+        <option value="$PROJECT_DIR$/libs/datasets/__init__.py" />
+        <option value="$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50.py" />
+        <option value="$PROJECT_DIR$/libs/datasets/voc.py" />
+        <option value="$PROJECT_DIR$/config/voc12_shape_binseg.yaml" />
+        <option value="$PROJECT_DIR$/testsemseg.sh" />
+        <option value="$PROJECT_DIR$/bsemseg.sh" />
+        <option value="$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50_seg.py" />
+        <option value="$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50_binaryseg.py" />
+        <option value="$PROJECT_DIR$/libs/models/deeplab_imagenet/__init__.py" />
+        <option value="$PROJECT_DIR$/trainval_shape_semseg.py" />
+        <option value="$PROJECT_DIR$/config/voc12_shape_semseg.yaml" />
+        <option value="$PROJECT_DIR$/imgen_voc12_binary.py" />
+        <option value="$PROJECT_DIR$/imgen_voc12.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="-5" />
+    <option name="width" value="1024" />
+    <option name="height" value="545" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shape_decoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shape_decoding" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4147e38-d2ac-4163-aecc-c48972f7f468" name="Default Changelist" comment="" />
+      <created>1637728758056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637728758056</updated>
+      <workItem from="1637728762629" duration="3076000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3076000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-5" width="1280" height="725" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2673667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25420874" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/libs/datasets/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/datasets/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/datasets/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/datasets/voc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binseg.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainval_shape_binseg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="241" column="29" lean-forward="true" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cam_shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bsemseg.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shape_semseg.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsemseg.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50_binaryseg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/models/deeplab_imagenet/resnet50_seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semseg.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/voc12_shape_semseg.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgen_voc12_binary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="144" column="27" lean-forward="true" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainval_shape_semseg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/voc12_shape_binseg.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="1" column="22" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/models/deeplab_imagenet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgen_voc12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
